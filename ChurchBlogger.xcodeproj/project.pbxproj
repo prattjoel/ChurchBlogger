@@ -15,6 +15,7 @@
 		5DF6C3441E46DB24003D8569 /* ChurchBloggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C3431E46DB24003D8569 /* ChurchBloggerTests.swift */; };
 		5DF6C34F1E46DB24003D8569 /* ChurchBloggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C34E1E46DB24003D8569 /* ChurchBloggerUITests.swift */; };
 		5DF6C35D1E46DB4B003D8569 /* DontationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C35C1E46DB4B003D8569 /* DontationVC.swift */; };
+		5DF6C35F1E46E640003D8569 /* ContactFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C35E1E46E640003D8569 /* ContactFormVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5DF6C34E1E46DB24003D8569 /* ChurchBloggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchBloggerUITests.swift; sourceTree = "<group>"; };
 		5DF6C3501E46DB24003D8569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF6C35C1E46DB4B003D8569 /* DontationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DontationVC.swift; sourceTree = "<group>"; };
+		5DF6C35E1E46E640003D8569 /* ContactFormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactFormVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5DF6C3301E46DB23003D8569 /* ViewController.swift */,
 				5DF6C35C1E46DB4B003D8569 /* DontationVC.swift */,
 				5DF6C3321E46DB23003D8569 /* Main.storyboard */,
+				5DF6C35E1E46E640003D8569 /* ContactFormVC.swift */,
 				5DF6C3351E46DB23003D8569 /* Assets.xcassets */,
 				5DF6C3371E46DB23003D8569 /* LaunchScreen.storyboard */,
 				5DF6C33A1E46DB23003D8569 /* Info.plist */,
@@ -265,6 +268,7 @@
 				5DF6C3311E46DB23003D8569 /* ViewController.swift in Sources */,
 				5DF6C32F1E46DB23003D8569 /* AppDelegate.swift in Sources */,
 				5DF6C35D1E46DB4B003D8569 /* DontationVC.swift in Sources */,
+				5DF6C35F1E46E640003D8569 /* ContactFormVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
