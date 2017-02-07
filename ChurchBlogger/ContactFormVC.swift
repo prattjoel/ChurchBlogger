@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import MessageUI
 
-class ContactFormVC: UIViewController {
+class ContactFormVC: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
@@ -17,5 +18,15 @@ class ContactFormVC: UIViewController {
     
     
     @IBAction func sendContactInfo(_ sender: Any) {
+        
+        let recipients = ["pratt.joel@gmail.com"]
+        
+        let mailController = MFMailComposeViewController()
+        
+        mailController.mailComposeDelegate = self
+        mailController.setToRecipients(recipients)
+        mailController.setSubject("\(nameTextField.text!) Communication Card")
+        
+        mailController.setMessageBody("Name: \(nameTextField.text!) /n/nEmail:\(emailTextField.text!) \n\nMessage: \(messageTextField.text)", isHTML: false)
     }
 }

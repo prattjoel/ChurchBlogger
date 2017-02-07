@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Donate-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="DonationVC" customModule="ChurchBlogger" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,13 +35,13 @@
                             <constraint firstItem="Foi-WZ-YHN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o2t-ag-F49"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ZyI-4y-h2c"/>
+                    <tabBarItem key="tabBarItem" title="Donate" id="ZyI-4y-h2c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1353" y="-437"/>
         </scene>
-        <!--Item-->
+        <!--Contact-->
         <scene sceneID="rJj-Fy-e5U">
             <objects>
                 <viewController id="Jzh-KY-1xb" customClass="ContactFormVC" customModule="ChurchBlogger" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pcF-9x-sN7"/>
+                    <tabBarItem key="tabBarItem" title="Contact" id="pcF-9x-sN7"/>
                     <connections>
                         <outlet property="emailTextField" destination="b3W-tg-X4y" id="VTh-mx-1mi"/>
                         <outlet property="messageTextField" destination="Bm1-nd-aAh" id="RHJ-Gs-aUa"/>

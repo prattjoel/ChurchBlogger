@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2467911E48DDDD0007A6D5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2467901E48DDDD0007A6D5 /* MessageUI.framework */; };
 		5DF6C32F1E46DB23003D8569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C32E1E46DB23003D8569 /* AppDelegate.swift */; };
 		5DF6C3311E46DB23003D8569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6C3301E46DB23003D8569 /* ViewController.swift */; };
 		5DF6C3341E46DB23003D8569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6C3321E46DB23003D8569 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D2467901E48DDDD0007A6D5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5DF6C32B1E46DB23003D8569 /* ChurchBlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChurchBlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF6C32E1E46DB23003D8569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF6C3301E46DB23003D8569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2467911E48DDDD0007A6D5 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D24678F1E48DDDD0007A6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2467901E48DDDD0007A6D5 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DF6C3221E46DB23003D8569 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				5DF6C3421E46DB24003D8569 /* ChurchBloggerTests */,
 				5DF6C34D1E46DB24003D8569 /* ChurchBloggerUITests */,
 				5DF6C32C1E46DB23003D8569 /* Products */,
+				5D24678F1E48DDDD0007A6D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -511,6 +523,7 @@
 				5DF6C3551E46DB24003D8569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DF6C3561E46DB24003D8569 /* Build configuration list for PBXNativeTarget "ChurchBloggerTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				5DF6C3581E46DB24003D8569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DF6C3591E46DB24003D8569 /* Build configuration list for PBXNativeTarget "ChurchBloggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				5DF6C35B1E46DB24003D8569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
