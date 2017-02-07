@@ -27,6 +27,25 @@ class ContactFormVC: UIViewController, MFMailComposeViewControllerDelegate {
         mailController.setToRecipients(recipients)
         mailController.setSubject("\(nameTextField.text!) Communication Card")
         
-        mailController.setMessageBody("Name: \(nameTextField.text!) /n/nEmail:\(emailTextField.text!) \n\nMessage: \(messageTextField.text)", isHTML: false)
+        mailController.setMessageBody("Name: \(nameTextField.text!) \n\nEmail:\(emailTextField.text!) \n\nMessage: \(messageTextField.text!)", isHTML: false)
+        
+        self.present(mailController, animated: true, completion: nil)
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        switch result.rawValue {
+        case MFMailComposeResult.cancelled.rawValue:
+            print("cancelled")
+        case MFMailComposeResult.failed.rawValue:
+            print("failed")
+        case MFMailComposeResult.saved.rawValue:
+            print("saved")
+        case MFMailComposeResult.sent.rawValue:
+            print("sent")
+        default:
+            break
+        }
+        
+        self.dismiss(animated: true, completion: nil)
     }
 }
